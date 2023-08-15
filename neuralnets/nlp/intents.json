@@ -1,0 +1,57 @@
+{
+	"intents": [
+			{
+		"tag": "greeting",
+		"patterns": [
+			"Hi", "Hello", "How are you","What's up?",
+			"Is anyone there?", "What's up", "How are you?"
+		],
+		"responses": [
+			"Hello!", "Good to see you again!",
+			"Hi there, how can I help?", "I'm fine, and how are you?"
+		],
+		"context_set": ""
+	},
+
+	{
+		"tag": "python",
+		"patterns": [
+			"how to write a hello world program in python?", "python lists", "How do python lists work?",
+			"what are the datastructures python uses?", "What are the fields python is good at?", "what makes python good?"
+		],
+		"responses": [
+			"Sure, I can show you how to print hello world in python. simply use print('Hello, World')", "Python lists are dynamic in size. A list is the same concept as an array if you are familiar with other languages such as java.",
+			"data structures used in python are lists, sets, dictionaries and tuples. You implement your own.", "data science, game development, web development, API development pretty much every thing!", "python is easy to learn"
+		],
+		"context_set": ""
+	}
+	,
+
+	{
+		"tag": "Ethiopia",
+		"patterns": [
+			"what is Ethiopia famous for?", "what is the famous food in Ethiopia?", "what is your name",
+			 "who is the best Ethiopian coder?", "do Ethiopians have big heads?"
+		],
+		"responses": [
+			"famous for winning the war of ADWA Ethiopia is a beacon of hope to all African countries", "I am, Samuel wondimagegnehu is indeed a famous coder:)",
+			"Ethiopians are known for their large heads.", "Enjera be Wot is a famous dish in Ethiopia.", "I am Samuel wondimagegnehu Besha. First of my name."
+		],
+		"context_set": ""
+	},
+
+	{
+		"tag": "music",
+		"patterns": [
+			"can you tell me whos song this is?", "whos song is this?", "what scale is this song?",
+			"what time signature are waltz songs", "What's up", "who is the best pianist?"
+		],
+		"responses": [
+			"3/4 time signature", "sure, send me the lyrics",
+			"it's a fine song by dawit getachew", "sami is the best"
+		],
+		"context_set": ""
+
+}
+]
+}
